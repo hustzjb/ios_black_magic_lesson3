@@ -22,6 +22,11 @@
 		22E9B0511E71CB61004AFD81 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E9B0501E71CB61004AFD81 /* TestClass.m */; };
 		22E9B0541E71CDB5004AFD81 /* exchange_method_no_api.c in Sources */ = {isa = PBXBuildFile; fileRef = 22E9B0521E71CDB5004AFD81 /* exchange_method_no_api.c */; };
 		22E9B0571E7599E7004AFD81 /* exchange_method_with_api.c in Sources */ = {isa = PBXBuildFile; fileRef = 22E9B0551E7599E7004AFD81 /* exchange_method_with_api.c */; };
+		9ECAB9241EA5135B00A16955 /* HidingVariables.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ECAB9231EA5135B00A16955 /* HidingVariables.m */; };
+		9ECAB9271EA522AA00A16955 /* HidingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ECAB9261EA522AA00A16955 /* HidingMethods.m */; };
+		9ECAB92A1EA5244C00A16955 /* HidingMethods+BreakEncapsulation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ECAB9291EA5244C00A16955 /* HidingMethods+BreakEncapsulation.m */; };
+		9ECAB92D1EA5298500A16955 /* HidingProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ECAB92C1EA5298500A16955 /* HidingProperty.m */; };
+		9ECAB9301EA52A9A00A16955 /* HidingProperty+BreakEncapsulation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ECAB92F1EA52A9A00A16955 /* HidingProperty+BreakEncapsulation.m */; };
 		E8EB28A3F78FA496BF2A95A3 /* libPods-ios_black_magic_lesson3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EDBDC3B79B7B2A1FB681D72 /* libPods-ios_black_magic_lesson3.a */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +73,16 @@
 		447619EA71D24F2FBC367E9E /* Pods-ios_black_magic_lesson3Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_black_magic_lesson3Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios_black_magic_lesson3Tests/Pods-ios_black_magic_lesson3Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		49343F7A9594D622201D4E8E /* Pods-ios_black_magic_lesson3Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_black_magic_lesson3Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios_black_magic_lesson3Tests/Pods-ios_black_magic_lesson3Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5EDBDC3B79B7B2A1FB681D72 /* libPods-ios_black_magic_lesson3.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ios_black_magic_lesson3.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ECAB9221EA5135B00A16955 /* HidingVariables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HidingVariables.h; sourceTree = "<group>"; };
+		9ECAB9231EA5135B00A16955 /* HidingVariables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HidingVariables.m; sourceTree = "<group>"; };
+		9ECAB9251EA522AA00A16955 /* HidingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HidingMethods.h; sourceTree = "<group>"; };
+		9ECAB9261EA522AA00A16955 /* HidingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HidingMethods.m; sourceTree = "<group>"; };
+		9ECAB9281EA5244C00A16955 /* HidingMethods+BreakEncapsulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HidingMethods+BreakEncapsulation.h"; sourceTree = "<group>"; };
+		9ECAB9291EA5244C00A16955 /* HidingMethods+BreakEncapsulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HidingMethods+BreakEncapsulation.m"; sourceTree = "<group>"; };
+		9ECAB92B1EA5298500A16955 /* HidingProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HidingProperty.h; sourceTree = "<group>"; };
+		9ECAB92C1EA5298500A16955 /* HidingProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HidingProperty.m; sourceTree = "<group>"; };
+		9ECAB92E1EA52A9A00A16955 /* HidingProperty+BreakEncapsulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HidingProperty+BreakEncapsulation.h"; sourceTree = "<group>"; };
+		9ECAB92F1EA52A9A00A16955 /* HidingProperty+BreakEncapsulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HidingProperty+BreakEncapsulation.m"; sourceTree = "<group>"; };
 		FA6C41716010581B9640260F /* libPods-ios_black_magic_lesson3Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ios_black_magic_lesson3Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -137,6 +152,16 @@
 				2236D8181E8D826C005A19D7 /* DynamicBinding.m */,
 				223873441E8E1D25002EF913 /* TestVarOrProperty.h */,
 				223873451E8E1D25002EF913 /* TestVarOrProperty.m */,
+				9ECAB9221EA5135B00A16955 /* HidingVariables.h */,
+				9ECAB9231EA5135B00A16955 /* HidingVariables.m */,
+				9ECAB9251EA522AA00A16955 /* HidingMethods.h */,
+				9ECAB9261EA522AA00A16955 /* HidingMethods.m */,
+				9ECAB9281EA5244C00A16955 /* HidingMethods+BreakEncapsulation.h */,
+				9ECAB9291EA5244C00A16955 /* HidingMethods+BreakEncapsulation.m */,
+				9ECAB92B1EA5298500A16955 /* HidingProperty.h */,
+				9ECAB92C1EA5298500A16955 /* HidingProperty.m */,
+				9ECAB92E1EA52A9A00A16955 /* HidingProperty+BreakEncapsulation.h */,
+				9ECAB92F1EA52A9A00A16955 /* HidingProperty+BreakEncapsulation.m */,
 			);
 			path = ios_black_magic_lesson3;
 			sourceTree = "<group>";
@@ -379,14 +404,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ECAB9241EA5135B00A16955 /* HidingVariables.m in Sources */,
 				22E9B0571E7599E7004AFD81 /* exchange_method_with_api.c in Sources */,
 				2236D8161E8D658F005A19D7 /* static_binding.cpp in Sources */,
 				22E9B0511E71CB61004AFD81 /* TestClass.m in Sources */,
 				223873491E8E1F00002EF913 /* TestClass2.m in Sources */,
+				9ECAB92A1EA5244C00A16955 /* HidingMethods+BreakEncapsulation.m in Sources */,
 				2236D8191E8D826C005A19D7 /* DynamicBinding.m in Sources */,
+				9ECAB9301EA52A9A00A16955 /* HidingProperty+BreakEncapsulation.m in Sources */,
+				9ECAB92D1EA5298500A16955 /* HidingProperty.m in Sources */,
 				22E9B0301E71C652004AFD81 /* ViewController.m in Sources */,
 				22E9B0541E71CDB5004AFD81 /* exchange_method_no_api.c in Sources */,
 				22E9B02D1E71C652004AFD81 /* AppDelegate.m in Sources */,
+				9ECAB9271EA522AA00A16955 /* HidingMethods.m in Sources */,
 				223873461E8E1D25002EF913 /* TestVarOrProperty.m in Sources */,
 				22E9B02A1E71C652004AFD81 /* main.m in Sources */,
 			);

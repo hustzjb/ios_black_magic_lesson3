@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "HidingVariables.h"
+#import "HidingMethods.h"
+#import "HidingProperty+BreakEncapsulation.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +20,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    breakIvarEncapsulation1();
+    breakMethodEncapsulation3();
+    breakPropertyEncapsulation();
     return YES;
 }
 
