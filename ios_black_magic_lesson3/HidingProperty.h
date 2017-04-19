@@ -10,6 +10,8 @@
 
 @interface HidingProperty : NSObject
 
-@property (nonatomic, strong) NSString *publicProperty;
+@property (nonatomic, assign) float publicProperty;
+@property (nonatomic, assign) int publicProperty1;
 
 @end
+

@@ -10,6 +10,8 @@
 #import "HidingVariables.h"
 #import "HidingMethods.h"
 #import "HidingProperty+BreakEncapsulation.h"
+#import "HidingProperty.h"
+#import "InheritanceModel.h"
 
 @interface AppDelegate ()
 
@@ -20,9 +22,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
     breakIvarEncapsulation1();
+    
     breakMethodEncapsulation3();
+    
     breakPropertyEncapsulation();
+    
+    HidingProperty *hide = [[HidingProperty alloc] init];
+    
+    Child *child  = [[Child alloc] init];
+    [child test];
+    
     return YES;
 }
 

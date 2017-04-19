@@ -22,6 +22,9 @@
 		22E9B0511E71CB61004AFD81 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E9B0501E71CB61004AFD81 /* TestClass.m */; };
 		22E9B0541E71CDB5004AFD81 /* exchange_method_no_api.c in Sources */ = {isa = PBXBuildFile; fileRef = 22E9B0521E71CDB5004AFD81 /* exchange_method_no_api.c */; };
 		22E9B0571E7599E7004AFD81 /* exchange_method_with_api.c in Sources */ = {isa = PBXBuildFile; fileRef = 22E9B0551E7599E7004AFD81 /* exchange_method_with_api.c */; };
+		9EBC3C301EA658050024E641 /* InheritanceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EBC3C2F1EA658050024E641 /* InheritanceModel.m */; };
+		9EBC3C331EA678980024E641 /* TestPolymorphism.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EBC3C321EA678980024E641 /* TestPolymorphism.m */; };
+		9EBC3C361EA708F90024E641 /* c++_polymorphism.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9EBC3C341EA708F90024E641 /* c++_polymorphism.cpp */; };
 		9ECAB9241EA5135B00A16955 /* HidingVariables.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ECAB9231EA5135B00A16955 /* HidingVariables.m */; };
 		9ECAB9271EA522AA00A16955 /* HidingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ECAB9261EA522AA00A16955 /* HidingMethods.m */; };
 		9ECAB92A1EA5244C00A16955 /* HidingMethods+BreakEncapsulation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ECAB9291EA5244C00A16955 /* HidingMethods+BreakEncapsulation.m */; };
@@ -73,6 +76,12 @@
 		447619EA71D24F2FBC367E9E /* Pods-ios_black_magic_lesson3Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_black_magic_lesson3Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios_black_magic_lesson3Tests/Pods-ios_black_magic_lesson3Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		49343F7A9594D622201D4E8E /* Pods-ios_black_magic_lesson3Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_black_magic_lesson3Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios_black_magic_lesson3Tests/Pods-ios_black_magic_lesson3Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5EDBDC3B79B7B2A1FB681D72 /* libPods-ios_black_magic_lesson3.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ios_black_magic_lesson3.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EBC3C2E1EA658050024E641 /* InheritanceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InheritanceModel.h; sourceTree = "<group>"; };
+		9EBC3C2F1EA658050024E641 /* InheritanceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InheritanceModel.m; sourceTree = "<group>"; };
+		9EBC3C311EA678980024E641 /* TestPolymorphism.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestPolymorphism.h; sourceTree = "<group>"; };
+		9EBC3C321EA678980024E641 /* TestPolymorphism.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestPolymorphism.m; sourceTree = "<group>"; };
+		9EBC3C341EA708F90024E641 /* c++_polymorphism.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "c++_polymorphism.cpp"; sourceTree = "<group>"; };
+		9EBC3C351EA708F90024E641 /* c++_polymorphism.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "c++_polymorphism.hpp"; sourceTree = "<group>"; };
 		9ECAB9221EA5135B00A16955 /* HidingVariables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HidingVariables.h; sourceTree = "<group>"; };
 		9ECAB9231EA5135B00A16955 /* HidingVariables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HidingVariables.m; sourceTree = "<group>"; };
 		9ECAB9251EA522AA00A16955 /* HidingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HidingMethods.h; sourceTree = "<group>"; };
@@ -162,6 +171,12 @@
 				9ECAB92C1EA5298500A16955 /* HidingProperty.m */,
 				9ECAB92E1EA52A9A00A16955 /* HidingProperty+BreakEncapsulation.h */,
 				9ECAB92F1EA52A9A00A16955 /* HidingProperty+BreakEncapsulation.m */,
+				9EBC3C2E1EA658050024E641 /* InheritanceModel.h */,
+				9EBC3C2F1EA658050024E641 /* InheritanceModel.m */,
+				9EBC3C311EA678980024E641 /* TestPolymorphism.h */,
+				9EBC3C321EA678980024E641 /* TestPolymorphism.m */,
+				9EBC3C341EA708F90024E641 /* c++_polymorphism.cpp */,
+				9EBC3C351EA708F90024E641 /* c++_polymorphism.hpp */,
 			);
 			path = ios_black_magic_lesson3;
 			sourceTree = "<group>";
@@ -405,6 +420,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9ECAB9241EA5135B00A16955 /* HidingVariables.m in Sources */,
+				9EBC3C331EA678980024E641 /* TestPolymorphism.m in Sources */,
 				22E9B0571E7599E7004AFD81 /* exchange_method_with_api.c in Sources */,
 				2236D8161E8D658F005A19D7 /* static_binding.cpp in Sources */,
 				22E9B0511E71CB61004AFD81 /* TestClass.m in Sources */,
@@ -412,6 +428,8 @@
 				9ECAB92A1EA5244C00A16955 /* HidingMethods+BreakEncapsulation.m in Sources */,
 				2236D8191E8D826C005A19D7 /* DynamicBinding.m in Sources */,
 				9ECAB9301EA52A9A00A16955 /* HidingProperty+BreakEncapsulation.m in Sources */,
+				9EBC3C301EA658050024E641 /* InheritanceModel.m in Sources */,
+				9EBC3C361EA708F90024E641 /* c++_polymorphism.cpp in Sources */,
 				9ECAB92D1EA5298500A16955 /* HidingProperty.m in Sources */,
 				22E9B0301E71C652004AFD81 /* ViewController.m in Sources */,
 				22E9B0541E71CDB5004AFD81 /* exchange_method_no_api.c in Sources */,

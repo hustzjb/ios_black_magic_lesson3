@@ -26,3 +26,4 @@ public:
 void testCpp1();
 void testCpp2();
 #endif /* static_binding_hpp */
+
