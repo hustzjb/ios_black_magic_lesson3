@@ -37,4 +37,5 @@ void breakMethodEncapsulation3(void){
         [invocation setSelector:cmd];
         [invocation invoke];
     }
+    free(methodList);
 }

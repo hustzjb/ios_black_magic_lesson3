@@ -38,6 +38,7 @@ typedef void(*Function)(id iself, SEL sel);
         Function func = (Function)imp;
         func(self,sel);
     }
+    free(methodsList);
 }
 
 @end

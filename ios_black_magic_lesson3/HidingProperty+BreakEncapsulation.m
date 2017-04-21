@@ -25,4 +25,5 @@ void breakPropertyEncapsulation(void){
         //利用kvc获取成员变量
         id ivar = [hidingProperty valueForKey:propertyName];
     }
+    free(propertyList);
 }

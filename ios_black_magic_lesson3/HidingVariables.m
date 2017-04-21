@@ -50,9 +50,8 @@ void breakIvarEncapsulation2(void){
     unsigned int ivarCount;
     Ivar *ivarList = class_copyIvarList([hidingVars class], &ivarCount);
     for (int i = 0; i < ivarCount; i++) {
-        id ivar = object_getIvar(hidingVars, ivarList[i]);
-        NSString *name = [NSString stringWithUTF8String:ivar_getTypeEncoding(ivarList[i])];
-        
-        NSLog(@"%@",ivar);
+        NSString *name = [NSString stringWithUTF8String:ivar_getName(ivarList[i])];
+        NSLog(@"%@",[hidingVars valueForKey:name]);
     }
+    free(ivarList);
 }
