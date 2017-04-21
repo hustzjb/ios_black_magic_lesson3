@@ -31,6 +31,7 @@ void testPolymorphism(Car *car){
 }
 void test(void){
     Taxi taxi;
-    testPolymorphism(&taxi);
+    Car *car = &taxi;
+    testPolymorphism(car);
 }
 

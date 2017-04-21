@@ -23,7 +23,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    breakIvarEncapsulation1();
+    breakIvarEncapsulation2();
     
     breakMethodEncapsulation3();
     

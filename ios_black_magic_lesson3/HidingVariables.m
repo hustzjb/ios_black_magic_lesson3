@@ -20,6 +20,16 @@
     float privateIvar3;
 }
 
+- (instancetype)init
+{
+    if (self = [super init]) {
+        privateIvar1 = 1;
+        privateIvar2 = 2;
+        privateIvar3 = 3;
+    }
+    return self;
+}
+
 - (void)start {
     
 }
@@ -41,5 +51,8 @@ void breakIvarEncapsulation2(void){
     Ivar *ivarList = class_copyIvarList([hidingVars class], &ivarCount);
     for (int i = 0; i < ivarCount; i++) {
         id ivar = object_getIvar(hidingVars, ivarList[i]);
+        NSString *name = [NSString stringWithUTF8String:ivar_getTypeEncoding(ivarList[i])];
+        
+        NSLog(@"%@",ivar);
     }
 }

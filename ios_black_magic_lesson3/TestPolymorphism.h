@@ -10,4 +10,6 @@
 
 @interface TestPolymorphism : NSObject
 
++ (void)testPolymorphism;
+
 @end
